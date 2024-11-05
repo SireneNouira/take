@@ -554,12 +554,285 @@ video {
   display: none;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.absolute {
+  position: absolute;
 }
 
-.text-red-600 {
+.float-left {
+  float: left;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.bg-primary-rose {
+  background-color: rgba(245,152,157,255);
+}
+
+.bg-primary-violet {
+  background-color: rgba(97,95,125,255);
+}
+
+.bg-primary-vert {
+  background-color: rgba(130,202,156,255);
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\(\)\] {
+  background-color: ();
+}
+
+.bg-\[\(\'\'\)\] {
+  background-color: ('');
+}
+
+.bg-\[url\(\'\.\/Take-assets\/masthead\.jpg\'\)\] {
+  background-image: url('./Take-assets/masthead.jpg');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/Take\'\)\] {
+  background-image: url('/Take');
+}
+
+.bg-\[url\(\'\/Take\E8 assets\'\)\] {
+  background-image: url('/Takeèassets');
+}
+
+.bg-\[url\(\'\/Take-assets\'\)\] {
+  background-image: url('/Take-assets');
+}
+
+.bg-\[url\(\'\/Take-assets\/\'\)\] {
+  background-image: url('/Take-assets/');
+}
+
+.bg-\[url\(\'\/Take-assets\/box-bg\'\)\] {
+  background-image: url('/Take-assets/box-bg');
+}
+
+.bg-\[url\(\'\/Take-assets\/box-bg\.jpg\'\)\] {
+  background-image: url('/Take-assets/box-bg.jpg');
+}
+
+.bg-\[url\(\'\/Take-assets\/box-bg\.lgjpg\'\)\] {
+  background-image: url('/Take-assets/box-bg.lgjpg');
+}
+
+.bg-\[url\(\'\/Take-assets\/box-bg\.lg\.jpg\'\)\] {
+  background-image: url('/Take-assets/box-bg.lg.jpg');
+}
+
+.bg-\[url\(\'\/Take-assets\/box-bg-lg\.jpg\'\)\] {
+  background-image: url('/Take-assets/box-bg-lg.jpg');
+}
+
+.bg-\[url\(\'\/Take-assets\/full\'\)\] {
+  background-image: url('/Take-assets/full');
+}
+
+.bg-\[url\(\'\/Take-assets\/full-image\'\)\] {
+  background-image: url('/Take-assets/full-image');
+}
+
+.bg-\[url\(\'\/Take-assets\/full-image\.jpg\'\)\] {
+  background-image: url('/Take-assets/full-image.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-11 {
+  padding: 2.75rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-9 {
+  padding: 2.25rem;
+}
+
+.p-14 {
+  padding: 3.5rem;
+}
+
+.p-44 {
+  padding: 11rem;
+}
+
+.p-28 {
+  padding: 7rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pl-\[50\%\] {
+  padding-left: 50%;
+}
+
+.pt-96 {
+  padding-top: 24rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-56 {
+  padding-top: 14rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1280px) {
+  .xl\:block {
+    display: block;
+  }
 }
