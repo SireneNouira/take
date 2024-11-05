@@ -690,6 +690,10 @@ video {
   width: 2.5rem;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -740,6 +744,10 @@ video {
 
 .gap-14 {
   gap: 3.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-sm {
@@ -1020,6 +1028,14 @@ video {
 
 .pt-56 {
   padding-top: 14rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
 }
 
 .text-left {
